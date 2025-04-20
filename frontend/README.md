@@ -7,6 +7,25 @@ This is the React frontend for "The Digital Diner," a mini restaurant ordering s
 - Git
 - Backend running at `http://localhost:5000`
 
+### Folder Structure 
+frontend/
+├── public/              # Public assets (index.html, icons, manifest)
+├── src/                 # Main source code
+│   ├── components/      # Reusable UI components (Menu, Cart, Order, History)
+│   ├── context/         # Cart state management using Context API
+│   ├── pages/           # Route-based pages (Home, Cart, Order, History)
+│   ├── services/        # API interaction layer
+│   ├── App.js           # App root with routing
+│   ├── index.js         # Entry point to React app
+│   ├── routes.js        # All routes configuration
+│   ├── App.css          # Styles for App
+│   ├── index.css        # Global styles
+│   └── logo.svg         # App logo
+├── package.json         # Frontend dependencies and scripts
+├── package-lock.json    # Lock file for npm
+└── README.md            # Frontend-specific instructions (optional)
+
+
 ### Installation
 1. Navigate to the frontend directory:
    ```bash
