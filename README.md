@@ -8,10 +8,13 @@ This is a full-stack mini restaurant ordering system developed as part of the Ea
 ---
 
 ## 📁 Project Structure
+
 digital-diner-eatoes/
 ├── backend/      # Node.js + Express + DB (MongoDB + PostgreSQL)
 ├── frontend/     # React App with state and routing
 └── README.md     # Root README with setup, deployment, and full overview
+
+
 
 ---
 
